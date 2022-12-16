@@ -1,0 +1,23 @@
+{
+    "name": "orakili/composer-drupal-info-file-patch-helper",
+    "type": "composer-plugin",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "ComposerDrupalInfoFilePatchHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "orakili",
+            "homepage": "https://github.com/orakili"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "composer-plugin-api": "^2.0"
+    },
+    "extra": {
+        "class": "ComposerDrupalInfoFilePatchHelper\\Plugin"
+    }
+}
