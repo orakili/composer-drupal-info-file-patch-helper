@@ -9,8 +9,8 @@ use Composer\EventDispatcher\EventSubscriberInterface;
 use Composer\IO\IOInterface;
 use Composer\Package\PackageInterface;
 use Composer\Plugin\PluginInterface;
-use cweagans\Composer\PatchEvent;
-use cweagans\Composer\PatchEvents;
+use cweagans\Composer\Event\PatchEvent;
+use cweagans\Composer\Event\PatchEvents;
 
 /**
  * Drupal Info File Patch Helper Composer Plugin.
