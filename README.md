@@ -6,6 +6,8 @@ This is a simple plugin to help applying patches that modify the `module.info.ym
 
 This plugin listens to the patch events from the https://github.com/cweagans/composer-patches plugin so it is only useful when this plugin is added as well.
 
+**Note:** This version requires `cweagans/composer-patches` version 2. For version 1 compatibility, use the latest 1.x release.
+
 ## Why is this needed?
 
 The Drupal packaging script adds information at the end of the `module.info.yml` file when generating the archive for distribution.
